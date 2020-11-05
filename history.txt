@@ -359,3 +359,39 @@
   359  git log
   360  git branch
   361  history>history.txt
+<<<<<<< HEAD
+=======
+  362  git add history.txt
+  363  git commit -m "added history"
+  364  git log
+  365  git checkout milkshake-flavours
+  366  git log
+  367  git add README.md
+  368  git status
+  369  git checkout master
+  370  git status
+  371  nano README.md
+  372  git status
+  373  git add README.md
+  374  git status
+  375  git commit -m "random readme changes"
+  376  git checkout history
+  377  cat README.md
+  378  rm README.md
+  379  echo "booya" > README.md
+  380  git add README.md
+  381  git commit -m "rewrote readme"
+  382  git checkout master
+  383  ls
+  384  git checkout history
+  385  git checkout master history.txt
+  386  git status
+  387  ls
+  388  git checkout master
+  389  ls
+  390  rm history.txt
+  391  ls
+  392  git checkout history
+  393  ls
+  394  history > history.txt
+>>>>>>> history
