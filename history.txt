@@ -359,8 +359,6 @@
   359  git log
   360  git branch
   361  history>history.txt
-<<<<<<< HEAD
-=======
   362  git add history.txt
   363  git commit -m "added history"
   364  git log
@@ -394,4 +392,3 @@
   392  git checkout history
   393  ls
   394  history > history.txt
->>>>>>> history
